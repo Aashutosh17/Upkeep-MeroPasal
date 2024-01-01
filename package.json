@@ -1,0 +1,21 @@
+{
+    "name": "upkeep-dev",
+    "version": "1.0.0",
+    "description": "- A project of Success fr !",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "react": "cd client; npm start",
+        "node": "cd api; npm run dev",
+        "dev": "concurrently \"npm run react\" \"npm run node\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^8.0.1"
+    }
+}
